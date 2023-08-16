@@ -1,0 +1,85 @@
+/* Bluebit.css */
+.bluebit {
+  background-color: #158bf1; /* Darker shade of blue */
+  color: white;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px; /* Add curved corners */
+  position: relative; /* Add position relative to the container */
+}
+
+/* Utility classes for colors */
+.red-text {
+  color: #ff0000; /* Bright red */
+}
+
+.yellow-text {
+  color: #ffff00; /* Bright yellow */
+}
+
+.green-text {
+  color: #00ff00; /* Bright green */
+}
+
+/* Utility classes for text sizes */
+
+.gdsc-themed {
+  color: #d32f2f; /* Bright red */
+}
+
+.blue-text {
+  color: #041dbfec; /* Bright blue */
+}
+
+/* Mini version styling */
+.miniSol {
+  font-size: 22px; /* Adjust font size to make it smaller than "Conducted by GDSC JECC" */
+  font-family: cursive;
+  margin-top: 10px; /* Add some spacing between "Mini version" and "Conducted by GDSC JECC" */
+}
+
+.mini-text {
+  font-size: 15px;
+}
+
+/* Google blue color variable */
+:root {
+  --google-blue: #4285f4;
+}
+
+/* Register button styling */
+/* bluebit.css */
+/* ... (existing styles) */
+
+/* Add new styles for the Register Now button */
+.registerButton {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Add styles for the Register Now button on hover */
+.registerButton:hover {
+  background-color: #0056b3;
+}
+
+/* Image styling */
+.bluebitImage {
+  max-width: 100%; /* Limit the image width to the container's width */
+  height: 200px; /* Maintain aspect ratio */
+  top: 30px;
+  position: absolute; /* Position the image relative to its container */
+  right: 60px; /* Adjust the right position to move the image inside the container */
+  bottom: 110px; /* Adjust the bottom position to move the image inside the container */
+  border-radius: 10px; /* Add curved corners to the image */
+
+  /* Add white border */
+  border: 3px solid white; /* Adjust the border thickness as needed */
+}
+.textBit {
+  padding-left: 30px;
+}

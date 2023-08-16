@@ -1,0 +1,55 @@
+.generalInfoContainer {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.generalInfoContainer h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.generalInfoContainer .description {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.highlights {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+}
+
+.highlight {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.highlight h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.highlight p {
+  font-size: 16px;
+}
+
+/* Back button */
+.generalInfoContainer a {
+  display: block;
+  margin-top: 20px;
+  color: #007bff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.generalInfoContainer a:hover {
+  text-decoration: underline;
+}

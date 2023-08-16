@@ -1,0 +1,51 @@
+ul {
+  list-style: none;
+}
+/* eventStyles.css */
+.eventsPart {
+  margin-top: 30px;
+  display: flex; /* Make eventsPart a flex container */
+  flex-direction: column; /* Stack the elements vertically */
+  align-items: center; /* Center align the elements horizontally */
+}
+
+.eventsTop {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.event {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1000px; /* Limit the maximum width of the elements */
+  margin: 0 60px; /* Add 60-pixel gap on either side */
+}
+
+.Section1,
+.Section2,
+.Section3 {
+  flex-basis: 30%;
+  text-align: center;
+}
+
+.Section1 img,
+.Section2 img,
+.Section3 img {
+  max-width: 100px;
+  display: block;
+  margin: 0 auto;
+}
+
+.imgTitle1,
+.imgTitle2,
+.imgTitle3 {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.eventText1,
+.eventText2,
+.eventText3 {
+  margin-top: 10px;
+}

@@ -1,0 +1,71 @@
+/* Styles for the Yellowbit component */
+.yellowbit {
+  background-color: #fff15e; /* Brighter yellow background */
+  color: #000000; /* Black text */
+  padding: 60px;
+  border-radius: 10px; /* Curved edges */
+  font-family: "Arial", sans-serif; /* Fancy font */
+  margin: 0 auto; /* Center align the yellowbit */
+  max-width: 1200px; /* Limit the width of the yellowbit */
+}
+
+.heading {
+  font-size: 28px; /* Smaller font for heading */
+  text-align: center; /* Center align the heading */
+  margin-bottom: 50px;
+}
+
+.sections {
+  display: flex;
+  gap: 20px; /* Gap between sections */
+  flex-wrap: wrap; /* Allow sections to wrap to the next line */
+  justify-content: center; /* Center align sections */
+  margin-top: 20px; /* Add gap between heading and sections */
+}
+
+.section {
+  flex: 1;
+  width: calc(
+    33.33% - 20px
+  ); /* Adjust width to fit 3 sections per row with a gap of 20px */
+  padding: 20px;
+  background-color: #ffffff; /* White background for sections */
+  border-radius: 10px; /* Curved edges for sections */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section h2 {
+  font-size: 14px; /* Smaller font for section headings */
+  margin-bottom: 10px;
+}
+
+.section p {
+  font-size: 12px; /* Smaller font for section text */
+  text-align: center; /* Center align the section text */
+  margin-bottom: 20px;
+}
+
+.registerButton {
+  background-color: #ff0000; /* Red background */
+  color: white;
+  padding: 12px 20px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  width: 100%; /* Make the button full width */
+}
+
+.registerButton:hover {
+  background-color: #e60000; /* Darker shade of red on hover */
+}
+
+/* Add a gap between learn more button and yellowbit */
+.learnMoreContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}

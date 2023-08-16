@@ -1,0 +1,72 @@
+.schedules {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px;
+}
+
+.schedules h1 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.tab {
+  cursor: pointer;
+  padding: 10px 20px;
+  border: none;
+  font-size: 16px;
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+}
+
+.tab.active {
+  background-color: #ff0000;
+  color: #ffffff;
+}
+
+.tab:hover {
+  background-color: #e0e0e0;
+  border-radius: 4px;
+}
+
+.onlineSchedules,
+.offlineSchedules {
+  margin-top: 20px;
+}
+
+.onlineSchedules.active,
+.offlineSchedules.active {
+  display: block;
+}
+
+.event {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.event h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.event p {
+  font-size: 16px;
+}
+
+.event-timings {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #666666;
+}
